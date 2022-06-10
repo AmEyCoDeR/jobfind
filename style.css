@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-image: url("search.png");
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    border: 1px solid #ddd;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: -1px; /* Prevent double borders */
+    background: linear-gradient(to right, rgb(0, 255, 247), rgb(116, 2, 177), rgb(247, 0, 255));
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    color: white;
+    text-align: center;
+    margin-top: -1px; /* Prevent double borders */
+    background: linear-gradient(to right, rgb(0, 255, 247), rgb(116, 2, 177), rgb(247, 0, 255));
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+  }
+
+  #myUL li a:hover {
+    border: 1px solid #ddd;
+    color: white;
+    text-align: center;
+    margin-top: -1px; /* Prevent double borders */
+    transition: 10s;
+    background: linear-gradient(to right,rgb(247, 0, 255) , rgb(116, 2, 177), rgb(0, 255, 247));
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    outline: none;
+    border: none;
+  }
+
+  .gradient{
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(0, 255, 247), rgb(116, 2, 177), rgb(247, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
